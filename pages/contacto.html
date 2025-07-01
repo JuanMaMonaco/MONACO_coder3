@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marisolcañascosmetologiacosmiatria</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
@@ -45,28 +46,32 @@
     <!-- contenido principal -->
     <main class="contenedor-formulario">
         <h3 class="contacto">Escribenos, queremos escuchar tus dudas y comentarios.</h3>
-        <form  class="formulario" action="" method="">
+        <form class="formulario" action="" method="">
             <fieldset class="campo">
                 <legend>Datos personales</legend>
-                <label class="label1" for="apellidoynombre"> Apellido y Nombre: <input id="apellidoynombre" type="text" required> </label>
-                <label class="label1" for="edad">Ingresa tu Edad:<input type="number" min="15" max="120" id="edad"> </label>
+                <label class="label1" for="apellidoynombre"> Apellido y Nombre: <input id="apellidoynombre" type="text"
+                        required> </label>
+                <label class="label1" for="edad">Ingresa tu Edad:<input type="number" min="15" max="120" id="edad">
+                </label>
                 <label class="label1" for="email">Ingresa tu Email: <input id="email" type="email" required></label>
             </fieldset>
-        
+
             <fieldset class="campo">
                 <legend>¿Que deseas saber?</legend>
-                    <label  for="turno"><input type="checkbox" id="turno" name="turno"> Solicitar un Turno </label>
-                    <label  for="info"><input type="checkbox" id="info" name="info"> Solicitar Informacion </label>
-                    <label  for="catalogo"><input type="checkbox" id="catalogo" name="catalogo"> Solicitar Precios de Catalogo </label>
+                <label for="turno"><input type="checkbox" id="turno" name="turno"> Solicitar un Turno </label>
+                <label for="info"><input type="checkbox" id="info" name="info"> Solicitar Informacion </label>
+                <label for="catalogo"><input type="checkbox" id="catalogo" name="catalogo"> Solicitar Precios de
+                    Catalogo </label>
             </fieldset>
-             
+
             <fieldset class="campo">
-                <legend>Comentarios:</legend>    
-                <label for="comentarios"><textarea name="comentarios" class="comentarios" id="comentarios" rows="6" cols="60" placeholder="Escribe tus comentarios aqui..."></textarea></label>
+                <legend>Comentarios:</legend>
+                <label for="comentarios"><textarea name="comentarios" class="comentarios" id="comentarios" rows="6"
+                        cols="60" placeholder="Escribe tus comentarios aqui..."></textarea></label>
             </fieldset>
-              
+
             <input class="submit" type="submit" value="ENVIAR">
-          
+
 
         </form>
     </main>
