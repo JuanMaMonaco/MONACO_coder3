@@ -363,13 +363,16 @@
         }
 
         .submit {
-            color: $font-colC !important;
-            font-size: 1.5rem !important;
-            font-weight: 500 !important;
-            display: block !important;
-            margin: 10px auto !important;
-            border-radius: 20px !important;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+            color: $font-colC;
+            font-size: 1.5rem;
+            font-weight: 500;
+            display: block;
+            margin: 10px auto;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: rgb(130, 128, 128);
+
+            -webkit-appearance: none;
         }
     }
 
