@@ -308,6 +308,7 @@
     background-color: #acba9d;
     border: 5px double $font-colA;
     max-width: 740px;
+    box-sizing: border-box;
 
     .contacto {
         font-weight: 500;
@@ -328,7 +329,7 @@
         margin: 20px;
         padding: 10px;
         border: 10px solid $ter-color;
-        flex: 1 0 300px;
+        flex: 1 1 300px;
         max-width: 660px;
 
         .campo {
@@ -340,7 +341,7 @@
             flex-wrap: wrap;
             justify-content: justify;
             padding: 10px;
-            flex: 1 0 300px;
+            flex: 1 1 300px;
             max-width: 600px;
 
             .label1 {
@@ -352,6 +353,8 @@
             .comentarios {
                 display: block;
                 margin: 10px auto;
+                width:100%;
+                max-width: 100%;
             }
         }
 

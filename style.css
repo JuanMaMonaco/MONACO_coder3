@@ -318,6 +318,7 @@
   background-color: #acba9d;
   border: 5px double #142e2f;
   max-width: 740px;
+  box-sizing: border-box;
 }
 .contenedor-formulario .contacto {
   font-weight: 500;
@@ -335,7 +336,7 @@
   margin: 20px;
   padding: 10px;
   border: 10px solid #c6ad71;
-  flex: 1 0 300px;
+  flex: 1 1 300px;
   max-width: 660px;
 }
 .contenedor-formulario .formulario .campo {
@@ -347,7 +348,7 @@
   flex-wrap: wrap;
   justify-content: justify;
   padding: 10px;
-  flex: 1 0 300px;
+  flex: 1 1 300px;
   max-width: 600px;
 }
 .contenedor-formulario .formulario .campo .label1 {
@@ -358,6 +359,8 @@
 .contenedor-formulario .formulario .campo .comentarios {
   display: block;
   margin: 10px auto;
+  width: 100%;
+  max-width: 100%;
 }
 .contenedor-formulario .formulario .submit {
   color: #142f30;
