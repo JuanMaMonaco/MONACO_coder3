@@ -352,7 +352,7 @@
   max-width: 600px;
 }
 .contenedor-formulario .formulario .campo legend {
-  margin-top: -0.5em;
+  margin-top: -1em;
 }
 .contenedor-formulario .formulario .campo .label1 {
   display: flex;
