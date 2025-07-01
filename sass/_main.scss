@@ -363,11 +363,11 @@
         }
 
         .submit {
-            color: $font-colC;
-            font-size: 1.5rem;
-            font-weight: 500;
-            display: block;
-            margin: 10px auto;
+            color: $font-colC !important;
+            font-size: 1.5rem !important;
+            font-weight: 500 !important;
+            display: block !important;
+            margin: 10px auto !important;
         }
     }
 
